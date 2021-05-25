@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block registration_page %}
+
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">full_name</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">phone_number</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">email_id</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+  <div class="mb-3 row">
+    <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword">
+    </div>
+  </div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">home_address</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+
+<a class="btn btn-primary" href="#" role="button">submit</a>
+
+
+{% endblock registration_page %}
